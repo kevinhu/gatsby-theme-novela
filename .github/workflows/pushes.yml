@@ -1,9 +1,10 @@
-name: CI for PR
+name: CI for PR and master pushes
 
 on:
+  push:
+    branches: [master]
   pull_request:
-    branches:
-    - master
+    branches: [master]
 
 jobs:
   CI_Workflow:

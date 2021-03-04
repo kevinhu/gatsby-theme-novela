@@ -17,8 +17,8 @@ jobs:
         fetch-depth: "0"
     - name: Git Identity
       run: |
-        git config --global user.name '@jpvalery'
-        git config --global user.email 'jpvalery@users.noreply.github.com'
+        git config --global user.name '@kevinhu'
+        git config --global user.email 'kevinhu@users.noreply.github.com'
         git remote set-url origin https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.6.18](https://github.com/kevinhu/blog-theme/compare/www@1.6.17...www@1.6.18) (2021-03-04)
+
+
+### Bug Fixes
+
+* update www version ([66f2e40](https://github.com/kevinhu/blog-theme/commit/66f2e401359824b1013348d5aeddfad05956cba7))
+
+
+
+
+
 ## [1.6.17](https://github.com/kevinhu/gatsby-theme-novela/compare/www@1.6.16...www@1.6.17) (2021-03-04)
 
 **Note:** Version bump only for package www

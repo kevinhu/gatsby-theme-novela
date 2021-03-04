@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.7 (2021-03-04)
+
+
+### Bug Fixes
+
+* Update inner README ([9dfd553](https://github.com/kevinhu/blog-theme/commit/9dfd553fef3344f598d384b8c15d6dcd264efc63))
+* Update package.json ([441b7fa](https://github.com/kevinhu/blog-theme/commit/441b7fab526b38f04cc3f8700d795dc440593fed))
+* Update package.json ([2c5ca9c](https://github.com/kevinhu/blog-theme/commit/2c5ca9ce64b447f6ec44b243ef66166f1de25891))
+* Update package.json ([2e0732d](https://github.com/kevinhu/blog-theme/commit/2e0732d33f9ebc83e340718b7215fe4291de66f2))
+
+
+
+
+
 ## [0.18.9](https://github.com/narative/gatsby-theme-novela/compare/@narative/gatsby-theme-novela@0.18.7...@narative/gatsby-theme-novela@0.18.9) (2021-03-04)
 
 

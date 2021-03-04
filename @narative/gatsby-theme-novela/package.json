@@ -1,7 +1,7 @@
 {
-  "name": "@narative/gatsby-theme-novela",
-  "author": "dennis@narative.co",
-  "repository": "https://github.com/narative/gatsby-theme-novela",
+  "name": "blog-theme",
+  "author": "kevinhuwest@gmail.com",
+  "repository": "https://github.com/kevinhu/blog-theme",
   "version": "0.18.9",
   "main": "index.js",
   "license": "MIT",
@@ -10,7 +10,6 @@
     "gatsby",
     "gatsby-plugin",
     "gatsby-theme",
-    "gatsby-theme-novela",
     "blog",
     "medium",
     "articles",
@@ -81,5 +80,6 @@
     "slugify": "^1.3.6",
     "theme-ui": "^0.2.40",
     "typeface-merriweather": "^0.0.72"
-  }
+  },
+  "gitHead": "05e9e9e259ae2e8c300d912317d69f8c10ab456e"
 }

@@ -11,10 +11,6 @@ import { IImg } from '@types';
  */
 const StyledGatsbyImag = styled(GatsbyImg)`
   border-radius: 12px;
-  &:hover {
-    box-shadow: 0 50px 80px -20px rgba(0, 0, 0, 0.27),
-      0 30px 50px -30px rgba(0, 0, 0, 0.3);
-  }
   & > img {
     filter: blur(8px);
   }

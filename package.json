@@ -67,11 +67,11 @@
   "description": "<a href=\"https://www.narative.co/labs/novela/\" target=\"_blank\"> <img src=\"https://raw.githubusercontent.com/narative/gatsby-theme-novela-example/master/assets/gatsby-theme-novela-hero.jpg\" alt=\"gatsby-novela-theme hero image\" /> </a>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kevinhu/gatsby-theme-novela.git"
+    "url": "git+https://github.com/kevinhu/blog-theme.git"
   },
   "author": "",
   "bugs": {
-    "url": "https://github.com/kevinhu/gatsby-theme-novela/issues"
+    "url": "https://github.com/kevinhu/blog-theme/issues"
   },
-  "homepage": "https://github.com/kevinhu/gatsby-theme-novela#readme"
+  "homepage": "https://github.com/kevinhu/blog-theme#readme"
 }

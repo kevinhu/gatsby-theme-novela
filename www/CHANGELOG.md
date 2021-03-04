@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.6.14](https://github.com/kevinhu/gatsby-theme-novela/compare/www@1.6.13...www@1.6.14) (2021-03-04)
+
+
+### Bug Fixes
+
+* contentful types ([4ed9277](https://github.com/kevinhu/gatsby-theme-novela/commit/4ed927751629ba93c73d49266f79d6745fe5ffe4))
+
+
+
+
+
 ## [1.6.13](https://github.com/narative/gatsby-theme-novela/compare/www@1.6.12...www@1.6.13) (2021-02-11)
 
 **Note:** Version bump only for package www

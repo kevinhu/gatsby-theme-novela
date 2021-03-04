@@ -12,9 +12,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: Yarn Install
+    - name: Yarn install
       run: yarn install
-    - name: Yarn Lint
+    - name: Yarn lint
       run: yarn lint
-    - name: Yarn Build
+    - name: Yarn prettier
+      run: yarn prettier-check
+    - name: Yarn build
       run: yarn build

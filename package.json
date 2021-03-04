@@ -8,6 +8,8 @@
     "build": "yarn workspace www build",
     "dev": "yarn start",
     "lint": "eslint --ignore-path .gitignore .",
+    "prettier-check": "prettier @narative/gatsby-theme-novela/src/**/*.tsx --lint",
+    "prettier-write": "prettier @narative/gatsby-theme-novela/src/**/*.tsx --write",
     "start": "yarn workspace www develop",
     "bootstrap": "yarn lerna bootstrap",
     "publish": "yarn lerna version && yarn lerna publish"

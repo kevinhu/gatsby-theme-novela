@@ -1,6 +1,6 @@
-import styled from "@emotion/styled";
+import styled from '@emotion/styled';
 
-import mediaqueries from "@styles/media";
+import mediaqueries from '@styles/media';
 
 const Section = styled.section<{ narrow?: boolean }>`
   width: 100%;

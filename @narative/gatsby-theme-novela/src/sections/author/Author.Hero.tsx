@@ -1,12 +1,12 @@
-import React from "react";
-import styled from "@emotion/styled";
+import React from 'react';
+import styled from '@emotion/styled';
 
-import Image from "@components/Image";
+import Image from '@components/Image';
 
-import mediaqueries from "@styles/media";
-import { IAuthor } from "@types";
+import mediaqueries from '@styles/media';
+import { IAuthor } from '@types';
 
-import SocialLinks from "@components/SocialLinks";
+import SocialLinks from '@components/SocialLinks';
 
 interface AuthorHeroProps {
   author: IAuthor;
@@ -19,7 +19,7 @@ const AuthorHero: React.FC<AuthorHeroProps> = ({ author }) => {
         <RoundedImage src={author.avatar.large} />
       </HeroImage>
       <Heading>{author.name}</Heading>
-      <Subheading dangerouslySetInnerHTML={{__html: author.bio}}></Subheading>
+      <Subheading dangerouslySetInnerHTML={{ __html: author.bio }}></Subheading>
       <Social>
         <SocialLinks links={author.social} />
       </Social>

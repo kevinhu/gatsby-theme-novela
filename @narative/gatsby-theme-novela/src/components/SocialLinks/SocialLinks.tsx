@@ -32,11 +32,13 @@ const icons = {
   tripadvisor: Icons.TripAdvisor,
   buymeacoffee: Icons.Buymeacoffee,
   mailto: Icons.Mailto,
-  url: Icons.Url
+  url: Icons.Url,
 };
 
 const getHostname = url => {
-  return new URL(url.toLowerCase()).hostname.replace(/www|com|net|\.so|org|[.-]/g, '').split('.')[0];
+  return new URL(url.toLowerCase()).hostname
+    .replace(/www|com|net|\.so|org|[.-]/g, '')
+    .split('.')[0];
 };
 
 const getServicename = url => {
@@ -52,7 +54,8 @@ const SocialLinks: React.FC<SocialLinksProps> = ({
   return (
     <>
       {links.map(option => {
-        const name = option.name || getHostname(option.url) || getServicename(option.url);
+        const name =
+          option.name || getHostname(option.url) || getServicename(option.url);
         const Icon = icons[name] ? icons[name] : icons['url'];
         if (!Icon) {
           throw new Error(

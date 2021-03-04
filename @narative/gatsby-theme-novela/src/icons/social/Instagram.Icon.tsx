@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
 import { Icon } from '@types';
 
-const InstagramIcon: Icon = ({ fill = "white" }) => (
+const InstagramIcon: Icon = ({ fill = 'white' }) => (
   <svg
     width="13"
     height="13"

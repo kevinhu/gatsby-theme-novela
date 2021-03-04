@@ -1,7 +1,7 @@
 import React from 'react';
 import { Icon } from '@types';
 
-const DevToIcon: Icon = ({ fill = "white" }) => (
+const DevToIcon: Icon = ({ fill = 'white' }) => (
   <svg
     width="14"
     height="14"

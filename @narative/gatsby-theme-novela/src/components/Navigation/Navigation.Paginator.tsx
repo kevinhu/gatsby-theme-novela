@@ -1,13 +1,13 @@
-import React, { Component } from "react";
-import styled from "@emotion/styled";
-import { css } from "@emotion/core";
-import { Link } from "gatsby";
-import { Helmet } from "react-helmet";
+import React, { Component } from 'react';
+import styled from '@emotion/styled';
+import { css } from '@emotion/core';
+import { Link } from 'gatsby';
+import { Helmet } from 'react-helmet';
 
-import mediaqueries from "@styles/media";
-import { range } from "@utils";
+import mediaqueries from '@styles/media';
+import { range } from '@utils';
 
-import { IPaginator } from "@types";
+import { IPaginator } from '@types';
 
 /**
  * <Paginator />
@@ -114,10 +114,10 @@ class Paginator extends Component<IPaginator, {}> {
    * but note there's special behaviour for page 1 where the URL should be / not /page/1
    */
   getFullPath = (n: number) => {
-    if (this.pageRoot === "/") {
-      return n === 1 ? this.pageRoot : this.pageRoot + "page/" + n;
+    if (this.pageRoot === '/') {
+      return n === 1 ? this.pageRoot : this.pageRoot + 'page/' + n;
     } else {
-      return n === 1 ? this.pageRoot : this.pageRoot + "/page/" + n;
+      return n === 1 ? this.pageRoot : this.pageRoot + '/page/' + n;
     }
   };
 
@@ -212,7 +212,7 @@ const Spacer = styled.span`
   opacity: 0.3;
   ${paginationItemMixin}
   &::before {
-    content: "...";
+    content: '...';
   }
 `;
 

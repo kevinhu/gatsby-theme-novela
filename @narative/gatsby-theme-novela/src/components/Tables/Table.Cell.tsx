@@ -1,5 +1,5 @@
-import styled from "@emotion/styled";
-import mediaqueries from "@styles/media";
+import styled from '@emotion/styled';
+import mediaqueries from '@styles/media';
 
 const Cell = styled.td`
   border-top: 1px solid ${p => p.theme.colors.horizontalRule};

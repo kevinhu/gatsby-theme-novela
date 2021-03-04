@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
 import { Icon } from '@types';
 
-const YouTubeIcon: Icon = ({ fill = "white" }) => (
+const YouTubeIcon: Icon = ({ fill = 'white' }) => (
   <svg
     width="17"
     height="12"

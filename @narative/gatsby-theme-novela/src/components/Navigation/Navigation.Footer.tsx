@@ -1,11 +1,11 @@
-import React from "react";
-import styled from "@emotion/styled";
-import { graphql, useStaticQuery } from "gatsby";
+import React from 'react';
+import styled from '@emotion/styled';
+import { graphql, useStaticQuery } from 'gatsby';
 
-import Section from "@components/Section";
-import SocialLinks from "@components/SocialLinks";
+import Section from '@components/Section';
+import SocialLinks from '@components/SocialLinks';
 
-import mediaqueries from "@styles/media";
+import mediaqueries from '@styles/media';
 
 const siteQuery = graphql`
   {
@@ -43,8 +43,8 @@ const Footer: React.FC<{}> = () => {
 
   const copyrightDate = (() => {
     const { edges } = results.allMdx;
-    const years = [0, edges.length - 1].map((edge) =>
-      new Date(edges[edge].node.frontmatter.date).getUTCFullYear()
+    const years = [0, edges.length - 1].map(edge =>
+      new Date(edges[edge].node.frontmatter.date).getUTCFullYear(),
     );
     return years[0] === years[1] ? `${years[0]}` : `${years[0]}–${years[1]}`;
   })();

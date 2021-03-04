@@ -1,11 +1,11 @@
-import React from "react";
-import styled from "@emotion/styled";
+import React from 'react';
+import styled from '@emotion/styled';
 
-import mediaqueries from "@styles/media";
+import mediaqueries from '@styles/media';
 
 import { Icon } from '@types';
 
-const Logo: Icon = ({ fill = "white" }) => {
+const Logo: Icon = ({ fill = 'white' }) => {
   return (
     <LogoContainer>
       <svg

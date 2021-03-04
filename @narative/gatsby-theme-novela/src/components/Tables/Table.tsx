@@ -1,6 +1,6 @@
-import React from "react";
-import styled from "@emotion/styled";
-import mediaqueries from "@styles/media";
+import React from 'react';
+import styled from '@emotion/styled';
+import mediaqueries from '@styles/media';
 
 const StyledTable = styled.table`
   position: relative;
@@ -32,7 +32,7 @@ const StyledTable = styled.table`
 
 const Table: React.FC<{}> = ({ children }) => {
   return (
-    <div style={{ overflowX: "auto", padding: "0 20px" }}>
+    <div style={{ overflowX: 'auto', padding: '0 20px' }}>
       <StyledTable>{children}</StyledTable>
     </div>
   );

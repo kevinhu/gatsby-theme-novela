@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
 import { Icon } from '@types';
 
-const CopiedIcon: Icon = ({ fill = "white" }) => (
+const CopiedIcon: Icon = ({ fill = 'white' }) => (
   <svg
     width="15"
     height="19"

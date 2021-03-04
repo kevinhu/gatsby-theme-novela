@@ -31,7 +31,7 @@ const Layout: React.FC<{}> = ({ children }) => {
       </Container>
     </ArticlesContextProvider>
   );
-}
+};
 
 export default Layout;
 

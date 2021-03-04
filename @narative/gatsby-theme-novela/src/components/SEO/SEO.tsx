@@ -99,10 +99,9 @@ const SEO: React.FC<HelmetProps> = ({
   const linkedin = site.social.find(option => option.name === 'linkedin') || {};
   const medium = site.social.find(option => option.name === 'medium') || {};
 
-  const pageUrl = site.siteUrl + pathname
+  const pageUrl = site.siteUrl + pathname;
 
-  const fullURL = (path: string) =>
-    path ? `${path}` : site.siteUrl;
+  const fullURL = (path: string) => (path ? `${path}` : site.siteUrl);
 
   // If no image is provided lets looks for a default novela static image
   image = image ? image : `${site.siteUrl}/preview.jpg`;
@@ -183,7 +182,7 @@ const SEO: React.FC<HelmetProps> = ({
       }
     ]
   }
-`.replace(/"[^"]+"|(\s)/gm, function (matched, group1) {
+`.replace(/"[^"]+"|(\s)/gm, function(matched, group1) {
     if (!group1) {
       return matched;
     } else {
@@ -329,7 +328,7 @@ const SEO: React.FC<HelmetProps> = ({
       }
     ]
   }
-`.replace(/"[^"]+"|(\s)/gm, function (matched, group1) {
+`.replace(/"[^"]+"|(\s)/gm, function(matched, group1) {
     if (!group1) {
       return matched;
     } else {
@@ -337,7 +336,7 @@ const SEO: React.FC<HelmetProps> = ({
     }
   });
 
-  const schema = isBlogPost ? blogSchema : siteSchema
+  const schema = isBlogPost ? blogSchema : siteSchema;
 
   const metaTags = [
     { charset: 'utf-8' },

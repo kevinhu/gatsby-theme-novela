@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.18.9](https://github.com/narative/gatsby-theme-novela/compare/@narative/gatsby-theme-novela@0.18.7...@narative/gatsby-theme-novela@0.18.9) (2021-03-04)
+
+
+### Bug Fixes
+
+* Image container shadows ([6dcc52e](https://github.com/narative/gatsby-theme-novela/commit/6dcc52e0f10c8cff92f219f6d1fb84f2b5eccaee))
+* Next image shadows ([a1518fa](https://github.com/narative/gatsby-theme-novela/commit/a1518fa9633b3157e9efc809453cf17addf5a605))
+
+
+
+
+
 ## [0.18.8](https://github.com/narative/gatsby-theme-novela/compare/@narative/gatsby-theme-novela@0.18.7...@narative/gatsby-theme-novela@0.18.8) (2021-03-04)
 
 

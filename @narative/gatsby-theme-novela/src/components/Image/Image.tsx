@@ -1,15 +1,20 @@
-import React from "react";
-import styled from "@emotion/styled";
+import React from 'react';
+import styled from '@emotion/styled';
 
-import GatsbyImg from "gatsby-image";
+import GatsbyImg from 'gatsby-image';
 
-import { IImg } from "@types";
+import { IImg } from '@types';
 
 /**
  * To soften the blur-up we get from the default configuration of gatbsy image
  * we're adding a CSS blur to the image. This makes it smoother!
  */
 const StyledGatsbyImag = styled(GatsbyImg)`
+  border-radius: 12px;
+  &:hover {
+    box-shadow: 0 50px 80px -20px rgba(0, 0, 0, 0.27),
+      0 30px 50px -30px rgba(0, 0, 0, 0.3);
+  }
   & > img {
     filter: blur(8px);
   }
@@ -42,17 +47,17 @@ const Image: React.FC<IImg> = ({ src, alt, ...props }) => {
   if (!src) return null;
 
   // Create a bool to tell us if the src is a string (vanilla img) or object (Gatsby)
-  const isGatsby = typeof src !== "string";
+  const isGatsby = typeof src !== 'string';
 
   // Now we need to calculate the prop that will set the src of the image.
   // This will either be src (for strings), fixed or fluid. Defaults to src
   const keyForSrc =
     // If src is an object with a width and height then we want fixed={src}
-    (isGatsby && src.width && src.height && "fixed") ||
+    (isGatsby && src.width && src.height && 'fixed') ||
     // The only other Gatsby option would be fluid
-    (isGatsby && "fluid") ||
+    (isGatsby && 'fluid') ||
     // Otherwise src is a string so set a vanilla src prop
-    "src";
+    'src';
 
   // todo : throw an exception if it is neither src nor fixed nor fluid
 

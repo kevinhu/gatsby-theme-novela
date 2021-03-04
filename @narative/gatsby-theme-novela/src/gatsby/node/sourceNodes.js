@@ -1,5 +1,9 @@
 module.exports = ({ actions }) => {
   actions.createTypes(`
+    type MarkdownRemarkFrontmatter {
+      image: File
+    }
+
     type Article implements Node {
       id: ID!
       slug: String!

@@ -2,7 +2,7 @@
   "name": "blog-theme",
   "author": "kevinhuwest@gmail.com",
   "repository": "https://github.com/kevinhu/blog-theme",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "index.js",
   "license": "MIT",
   "keywords": [
@@ -81,5 +81,5 @@
     "theme-ui": "^0.2.40",
     "typeface-merriweather": "^0.0.72"
   },
-  "gitHead": "2e0732d33f9ebc83e340718b7215fe4291de66f2"
+  "gitHead": "b241d12116396bba14681dcc44490e23f85adfdb"
 }

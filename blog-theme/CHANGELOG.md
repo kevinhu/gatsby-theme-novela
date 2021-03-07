@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.8](https://github.com/kevinhu/blog-theme/compare/blog-theme@0.0.7...blog-theme@0.0.8) (2021-03-07)
+
+
+### Bug Fixes
+
+* update packaging ([80afd01](https://github.com/kevinhu/blog-theme/commit/80afd01a836481061ff8954c83ef9e0d06b3ab87))
+
+
+
+
+
 ## 0.0.7 (2021-03-04)
 
 

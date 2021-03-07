@@ -8,14 +8,14 @@
     "build": "yarn workspace www build",
     "dev": "yarn start",
     "lint": "eslint --ignore-path .gitignore .",
-    "prettier-check": "prettier @narative/gatsby-theme-novela/src/**/*.tsx --lint",
-    "prettier-write": "prettier @narative/gatsby-theme-novela/src/**/*.tsx --write",
+    "prettier-check": "prettier blog-theme/src/**/*.tsx --lint",
+    "prettier-write": "prettier blog-theme/src/**/*.tsx --write",
     "start": "yarn workspace www develop",
     "bootstrap": "yarn lerna bootstrap",
     "publish": "yarn lerna version && yarn lerna publish"
   },
   "workspaces": [
-    "@narative/gatsby-theme-novela",
+    "blog-theme",
     "www"
   ],
   "devDependencies": {
@@ -66,7 +66,6 @@
     "singleQuote": true,
     "trailingComma": "all"
   },
-  "description": "<a href=\"https://www.narative.co/labs/novela/\" target=\"_blank\"> <img src=\"https://raw.githubusercontent.com/narative/gatsby-theme-novela-example/master/assets/gatsby-theme-novela-hero.jpg\" alt=\"gatsby-novela-theme hero image\" /> </a>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kevinhu/blog-theme.git"

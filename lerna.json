@@ -1,7 +1,7 @@
 {
   "useWorkspaces": true,
   "packages": [
-    "@narative/gatsby-theme-novela"
+    "blog-theme"
   ],
   "npmClient": "yarn",
   "command": {

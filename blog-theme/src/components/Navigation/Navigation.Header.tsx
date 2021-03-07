@@ -16,7 +16,7 @@ import {
 
 const siteQuery = graphql`
   {
-    sitePlugin(name: { eq: "@narative/gatsby-theme-novela" }) {
+    sitePlugin(name: { eq: "blog-theme" }) {
       pluginOptions {
         rootPath
         basePath

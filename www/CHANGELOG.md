@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.6.20](https://github.com/kevinhu/blog-theme/compare/www@1.6.19...www@1.6.20) (2021-04-03)
+
+
+### Bug Fixes
+
+* update version ([8bfa013](https://github.com/kevinhu/blog-theme/commit/8bfa013a4abab12a978ddc3613cf5c27b8ee573e))
+
+
+
+
+
 ## [1.6.19](https://github.com/kevinhu/gatsby-theme-novela/compare/www@1.6.18...www@1.6.19) (2021-03-07)
 
 

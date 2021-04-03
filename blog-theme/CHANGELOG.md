@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.10](https://github.com/kevinhu/blog-theme/compare/blog-theme@0.0.8...blog-theme@0.0.10) (2021-04-03)
+
+**Note:** Version bump only for package blog-theme
+
+
+
+
+
 ## [0.0.8](https://github.com/kevinhu/blog-theme/compare/blog-theme@0.0.7...blog-theme@0.0.8) (2021-03-07)
 
 

@@ -185,8 +185,8 @@ const listTile = p => css`
 const listItemRow = p => css`
   display: grid;
   grid-template-rows: 1fr;
-  grid-template-columns: 1fr 488px;
-  grid-column-gap: 96px;
+  grid-template-columns: 1fr 640px;
+  grid-column-gap: 48px;
   grid-template-rows: 1;
   align-items: center;
   position: relative;
